@@ -4,21 +4,12 @@ const Skill = ({ skillName, skillProgress }) => {
   return (
     <div className="skill-circle">
       {
-        /* <Flat
-        progress={skillProgress}
-        sx={{
-          strokeColor: "var(--primary-color)",
-          barWidth: 10,
-          valueColor: "var(--primary-color)",
-          valueWeight: "bold",
-          miniCircleColor: "#000000",
-        }}
-      /> */
         <Heat
           progress={skillProgress}
           sx={{
             bgColor: "#ffffff",
             valueWeight: "bold",
+            valueAnimation:false,
             strokeColor:
               "linear-gradient(285deg, rgba(74, 123, 186, 0.75) 0%, rgba(238,245,255,0.9275911048012955) 100%)",
             barWidth: 9,
