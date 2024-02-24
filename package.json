@@ -1,14 +1,14 @@
 {
-  "name": "react-javascript",
+  "name": "myportfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/hossamYNWA/portfolioViaReact",
+  "homepage": "https://hossamYNWA.github.io/myPortfolio/",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "preview": "vite preview"
   },
   "keywords": [],

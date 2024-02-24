@@ -1,6 +1,6 @@
 import Home from "./Home.jsx"
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-const myRouter = createBrowserRouter([
+import {createMemoryRouter, RouterProvider} from "react-router-dom";
+const myRouter = createMemoryRouter([
   {
     path: "/",
     element: <Home />,
