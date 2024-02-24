@@ -18,7 +18,6 @@ const Skill = ({ skillName, skillProgress }) => {
           progress={skillProgress}
           sx={{
             bgColor: "#ffffff",
-            barWidth: 8,
             valueWeight: "bold",
             strokeColor:
               "linear-gradient(285deg, rgba(74, 123, 186, 0.75) 0%, rgba(238,245,255,0.9275911048012955) 100%)",
