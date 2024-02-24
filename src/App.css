@@ -11,7 +11,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-image:url("./src/components/images/header-bg.jpg");
+    background-image:url("../src/components/images/headerbg.jpg");
     width:100%;
     margin:0 auto;
     overflow-x:hidden;
