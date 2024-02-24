@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
 const NavIcons = () => {
   return (
     <li className="navIcons">
-      <Link to="https://github.com/">
+      <Link to="https://www.linkedin.com/in/hossamynwa">
         <FaLinkedinIn />
       </Link>
-      <Link to="https://github.com/">
+      <Link to="https://github.com/hossamynwa">
         <FaGithub />
       </Link>
-      <Link to="https://github.com/">
+      <Link to="https://www.facebook.com/HossamYNWA08">
         <FaFacebookF />
       </Link>
     </li>
