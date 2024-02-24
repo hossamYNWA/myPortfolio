@@ -1,0 +1,31 @@
+.htext {
+    width:485px;
+    margin-top:120px;
+    
+}
+.htext h1:first-of-type{
+    font-size:3rem;
+    font-weight:bold;
+    color:var(--secondary-color);
+    margin-bottom:1rem;
+    height:130px;
+}
+p.welcome {
+     background: rgb(74,123,186);
+    background: linear-gradient(285deg, rgba(74, 123, 186, 0.75) 0%, rgba(238,245,255,0.9275911048012955) 100%);
+    width: 60%;
+    color: var(--primary-color);
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-weight:bold
+}
+
+p.exp{
+    letter-spacing: 1.5px;
+    color: var(--light-color);
+    margin-top:20px;
+}

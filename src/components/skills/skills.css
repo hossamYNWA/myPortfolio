@@ -1,0 +1,32 @@
+.skill-circle {
+    width:100px;
+    height:150px;
+    margin:0 auto;
+    color:var(--primary-color)
+}
+
+.skills-cont{
+    background-color: #e0e9f578;
+    border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+    text-align:center;
+}
+.skills-cont>h2{
+    font-size: 2.2rem;
+    margin: 15px auto;
+    color:var(--secondary-color)
+}
+
+.skill-circle linearGradient stop:first-of-type {
+    stop-color:var(--secondary-color)
+}
+.skill-circle linearGradient stop:nth-of-type(2) {
+    stop-color:var(--primary-color)
+}
+.skill-circle linearGradient stop:nth-of-type(3) {
+    stop-color:var(--primary-color)
+}
+.skill-circle linearGradient stop:nth-of-type(4) {
+    stop-color:#5e9ff7
+}

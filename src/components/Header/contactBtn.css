@@ -1,0 +1,21 @@
+.contactBtn {
+    margin-top:25px;
+    position:relative;
+}
+.contactBtn a {
+    color:var(--secondary-color);
+    text-decoration:none;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    transition:color ease 0.3s;
+}
+
+.contactBtn a svg{
+    position:absolute;
+    top:3px;
+    left:114px;
+}
+
+.contactBtn:hover a {
+    color:var(--light-color)
+}

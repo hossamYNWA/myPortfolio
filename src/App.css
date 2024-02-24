@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+:root{
+    --primary-color: #264a77;
+    --secondary-color: #0f2a43;
+    --light-color: #e0e9f5;
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url("./src/components/images/header-bg.jpg");
+    width:100%;
+    margin:0 auto;
+    overflow-x:hidden;
+    font-family: "Dosis", sans-serif !important;
+    background-size:cover;
+    background-attachment:fixed;
+}
