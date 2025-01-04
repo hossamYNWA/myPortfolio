@@ -57,6 +57,10 @@ nav.nav-active li.contact-box:hover a {
   color: var(--light-color);
 }
 
+.footer-icons .navIcons a svg {
+  color: var(--light-color);
+}
+
 @media screen and (max-width: 768px) {
   .navIcons a,
   .navIcons svg {
