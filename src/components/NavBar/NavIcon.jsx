@@ -1,9 +1,9 @@
 import "./navitems.css";
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 const NavIcons = () => {
   return (
-    <li className="navIcons">
+    <div className="navIcons">
       <Link to="https://www.linkedin.com/in/hossamynwa" target="_blank">
         <FaLinkedinIn />
       </Link>
@@ -13,7 +13,7 @@ const NavIcons = () => {
       <Link to="https://www.facebook.com/HossamYNWA08" target="_blank">
         <FaFacebookF />
       </Link>
-    </li>
+    </div>
   );
 };
 

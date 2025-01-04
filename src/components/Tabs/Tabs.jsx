@@ -20,6 +20,7 @@ const TabsSection = () => {
         typography: "body1",
         minHeight: "500px",
       }}
+      id="tabs"
     >
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>

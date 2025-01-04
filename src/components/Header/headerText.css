@@ -1,33 +1,31 @@
 .htext {
-    width:485px;
-    margin-top:120px;
-    
+  width: 485px;
+  margin-top: 120px;
 }
-.htext h1:first-of-type{
-    font-size:3rem;
-    font-weight:bold;
-    color:var(--secondary-color);
-    margin-bottom:1rem;
-    min-height:130px;
+.htext h1:first-of-type {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+  min-height: 130px;
 }
 p.welcome {
-     background: rgb(74,123,186);
-    background: linear-gradient(285deg,rgba(74, 123, 186, 0.56) 0%,rgba(238, 245, 255, 0.58) 100%);
-    color: var(--primary-color);
-    min-height: 50px;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 50px;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-    font-weight:bold;
-    letter-spacing: 2px;
-padding: 0 5px;
-
+  /* background: rgb(74,123,186);
+    background: linear-gradient(285deg,rgba(74, 123, 186, 0.56) 0%,rgba(238, 245, 255, 0.58) 100%); */
+  color: var(--primary-color);
+  min-height: 80px;
+  line-height: 80px;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0 5px;
 }
 
-p.exp{
-    letter-spacing: 1.5px;
-    color: var(--light-color);
-    margin-top:20px;
+p.exp {
+  letter-spacing: 1.5px;
+  color: var(--secondary-color);
+  margin-top: 28px;
 }

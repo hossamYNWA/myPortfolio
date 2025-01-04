@@ -1,125 +1,141 @@
-.contact-form{
-    background-color: var(--light-color);
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 300px;
-    border-radius:5%;
-    position:relative;
+.contact-form {
+  background-color: var(--light-color);
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 300px;
+  border-radius: 5%;
+  position: relative;
 }
 
-.form-ctrl{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding: 15px;
-    
+.form-ctrl {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
 }
-.form-ctrl .input{
-    margin:10px 5px;
-    flex-grow: 1.2;
-    width: 35%;
-    min-width: 100px;
+.form-ctrl .input {
+  margin: 10px 5px;
+  flex-grow: 1.2;
+  width: 35%;
+  min-width: 100px;
 }
-textarea{
-    width: 97%;
-    margin: auto;
-    height: 150px;
-    background-color: transparent;
-    border: 1px solid #acb3bd;;
-    outline: 0;
-    padding: 10px;
-    font-size: 17px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    resize:none
+textarea {
+  width: 97%;
+  margin: auto;
+  height: 150px;
+  background-color: transparent;
+  border: 1px solid #acb3bd;
+  outline: 0;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: none;
 }
 
 .input input {
-    border-color:var(--light-color)
+  border-color: var(--light-color);
 }
 .img-container {
-    width: 35%;
+  width: 35%;
 }
 
 .img-container img {
-    width: 80%;
-    margin: 50px 30px;
+  width: 80%;
+  margin: 50px 30px;
 }
 
-.projects-cont{
-    width: 100%;
-    overflow: hidden;
-    display:grid ;
-    grid-template-columns: repeat(auto-fit, 300px);
-    margin: 0 auto;
-    justify-content: center;
-    grid-gap: 25px;
+.projects-cont {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  margin: 0 auto;
+  justify-content: center;
+  grid-gap: 25px;
 }
-.projects-cont article{
-    min-width: 160px;
-    height: 160px;
-    border-radius: 5px;
-    overflow: hidden;
-    position:relative;
+.projects-cont article {
+  min-width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
 }
-.projects-cont article::before{
-content:attr(name);
-width:100%;
-height:0;
-    background-color:var(--light-color);
-    top:0;
-    left:0;
-    text-align: center;
-    line-height: 160px;
-    opacity: 0.8;
-    font-size: ;
-    font-weight: bold;
-    color: var(--primary-color);
-    font-family: "Dosis";
-    position:absolute;
-    transition: all ease-in 0.3s;
-    overflow:hidden;
+.projects-cont article::before {
+  content: attr(name);
+  width: 100%;
+  height: 0;
+  background-color: var(--light-color);
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 160px;
+  opacity: 0.8;
+  font-size: ;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: "Dosis";
+  position: absolute;
+  transition: all ease-in 0.3s;
+  overflow: hidden;
 }
-.projects-cont article:hover::before{
-    height:100%;
+.projects-cont article:hover::before {
+  height: 100%;
 }
 .projects-cont article img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .panels {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .breif {
-    background-color: #264a77;
-    width: 90%;
-    margin: 0 auto 25px;
-    padding: 10px 25px;
-    color: #e0e9f5;
-    font-family: "Dosis", sans-serif;
+  background-color: #264a77;
+  width: 90%;
+  margin: 0 auto 25px;
+  padding: 10px 25px;
+  color: #e0e9f5;
+  font-family: "Dosis", sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  .img-container {
+    width: 35%;
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+    top: 20%;
+  }
+  .form-ctrl {
+    width: 100%;
+  }
+  .send-btn {
+    width: 100% !important;
+  }
+}
 
-@media screen and (max-width: 768px)  {
-    .img-container {
-        width: 35%;
-        position:absolute;
-        width: 100%;
-        opacity: 0.2;
-        top: 20%;
-        
-    }
-    .form-ctrl{
-        width: 100%;}
-    .send-btn{
-        width:100% !important;
-    }
+.feedback-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.feedback-message.success {
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+}
+
+.feedback-message.error {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24; /* Dark red */
 }

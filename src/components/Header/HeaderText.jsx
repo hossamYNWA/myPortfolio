@@ -4,14 +4,14 @@ import ContactBtn from "./ContactBtn";
 const HeaderText = () => {
   return (
     <div className="htext">
-      <p className="welcome">Welcome to my portfolio</p>
+      {/* <p className="welcome">Welcome to my portfolio</p> */}
       <h1>
-        Hi! I'm Hossam Mousa,{" "}
+        Hi! I'm Hossam Mousa, <br />
         <ReactTyped
           strings={[
-            "a Frontend Developer",
-            "a Backend Developer",
-            "a Full-Stack Developer",
+            "Frontend Developer",
+            "React Developer",
+            "JavaScript Developer",
           ]}
           typeSpeed={100}
           backSpeed={30}
