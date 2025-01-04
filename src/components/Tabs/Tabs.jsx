@@ -56,12 +56,19 @@ const TabsSection = () => {
           </TabPanel>
           <TabPanel value="3">
             <p className="breif">
-              with a passion for innovation and a strong foundation in web
-              development principles, I strive to craft efficient and responsive
-              websites that meet clients needs while adhering to industry best
-              practices.
+              As a Front-End Web Developer with a strong foundation in HTML,
+              CSS, and JavaScript, I specialize in creating dynamic user
+              interfaces using React. My experience includes developing various
+              projects, such as a small eCommerce site and landing pages, as
+              well as more complex applications that tailor user configurations
+              for optimal system specifications. I also created a web app that
+              evaluates building designs against biophilic design criteria.
+              Transitioning from a career in pharmacy to web development, I am
+              eager to leverage my skills in libraries like Material-UI and
+              PatternFly while continually expanding my knowledge in programming
+              languages such as C++ and Python. My portfolio reflects my
+              dedication to crafting engaging and user-centric web experiences.
             </p>
-            <ContactMe />
           </TabPanel>
         </div>
       </TabContext>

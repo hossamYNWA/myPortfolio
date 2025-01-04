@@ -85,6 +85,21 @@ textarea {
 .projects-cont article:hover::before {
   height: 100%;
 }
+.projects-cont article:hover a {
+  visibility: visible;
+}
+
+.projects-cont article a {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--primary-color);
+  visibility: hidden;
+  transition-delay: 0.3s;
+}
+
 .projects-cont article img {
   width: 100%;
   height: 100%;

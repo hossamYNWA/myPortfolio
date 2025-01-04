@@ -16,6 +16,7 @@ const ContactMe = () => {
   });
   const [feedbackMessage, setFeedbackMessage] = useState("");
   const [feedbackType, setFeedbackType] = useState("");
+  const [errors, setErrors] = useState({});
 
   init("N0gQC_ywT_nKab74B");
 
@@ -24,8 +25,26 @@ const ContactMe = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+    if (!formData.firstName) newErrors.firstName = "First name is required.";
+    if (!formData.lastName) newErrors.lastName = "Last name is required.";
+    if (!formData.message) newErrors.lastName = "you didn't leave a message!";
+    if (!formData.email) {
+      newErrors.email = "Email is required.";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email address is invalid.";
+    }
+    if (!formData.message) newErrors.message = "Message is required.";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0; // Return true if no errors
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateForm()) return; // Stop submission if validation fails
 
     send("service_g9dreeg", "template_ljz5aye", formData)
       .then((response) => {
@@ -38,7 +57,8 @@ const ContactMe = () => {
           email: "",
           phone: "",
           message: "",
-        }); // Reset form
+        });
+        setErrors({}); // Clear errors on successful send
       })
       .catch((err) => {
         console.error("Failed to send email. Error: ", err);
@@ -60,6 +80,8 @@ const ContactMe = () => {
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
+            error={!!errors.firstName}
+            helperText={errors.firstName}
           />
         </div>
         <div className="input">
@@ -69,6 +91,8 @@ const ContactMe = () => {
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
+            error={!!errors.lastName}
+            helperText={errors.lastName}
           />
         </div>
         <div className="input">
@@ -78,6 +102,8 @@ const ContactMe = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            error={!!errors.email}
+            helperText={errors.email}
           />
         </div>
         <div className="input">
@@ -95,6 +121,9 @@ const ContactMe = () => {
           value={formData.message}
           onChange={handleChange}
         ></textarea>
+        {errors.message && (
+          <div className="error-message">{errors.message}</div>
+        )}
         <Button
           className="send-btn"
           sx={{
