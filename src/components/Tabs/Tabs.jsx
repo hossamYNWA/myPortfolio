@@ -56,18 +56,33 @@ const TabsSection = () => {
           </TabPanel>
           <TabPanel value="3">
             <p className="breif">
-              As a Front-End Web Developer with a strong foundation in HTML,
-              CSS, and JavaScript, I specialize in creating dynamic user
-              interfaces using React. My experience includes developing various
-              projects, such as a small eCommerce site and landing pages, as
-              well as more complex applications that tailor user configurations
-              for optimal system specifications. I also created a web app that
-              evaluates building designs against biophilic design criteria.
-              Transitioning from a career in pharmacy to web development, I am
-              eager to leverage my skills in libraries like Material-UI and
-              PatternFly while continually expanding my knowledge in programming
-              languages such as C++ and Python. My portfolio reflects my
-              dedication to crafting engaging and user-centric web experiences.
+              Hi, I’m a Front-End Web Developer with a strong foundation in
+              HTML, CSS, and JavaScript, and hands-on experience with React. My
+              journey into web development has been a rewarding transition from
+              my original career in pharmacy, and it’s fueled by my passion for
+              creating functional, user-friendly, and visually appealing web
+              applications. I’ve worked on a variety of projects, including:
+              <ul>
+                <li>
+                  A biophilic design evaluation tool, which assesses building
+                  designs based on specific criteria.
+                </li>
+                <li>
+                  A web app for window configuration, where users can customize
+                  materials, sizes, and glass thickness.
+                </li>
+                <li>
+                  A small eCommerce site and landing pages built during my
+                  training.
+                </li>
+              </ul>
+              <br />I also enjoy working with styling libraries like Material-UI
+              and PatternFly, and I have some experience with C++ and Python.
+              While most of my projects have been self-initiated as part of my
+              learning journey, they reflect my dedication to improving my
+              skills and delivering meaningful solutions. I’m excited to
+              continue growing as a developer and contributing to projects that
+              make a real impact.
             </p>
           </TabPanel>
         </div>
