@@ -11,11 +11,11 @@ const Skills = () => {
     },
     {
       skillName: "CSS",
-      skillProgress: "85",
+      skillProgress: "80",
     },
     {
       skillName: "JavaScript",
-      skillProgress: "90",
+      skillProgress: "85",
     },
     {
       skillName: "React",
@@ -23,27 +23,27 @@ const Skills = () => {
     },
     {
       skillName: "TypeScipt",
-      skillProgress: "80",
+      skillProgress: "70",
     },
     {
       skillName: "C++",
-      skillProgress: "60",
-    },
-    {
-      skillName: "Node.js",
-      skillProgress: "60",
-    },
-    {
-      skillName: "Express.js",
-      skillProgress: "60",
-    },
-    {
-      skillName: "MongoDB",
       skillProgress: "50",
     },
     {
+      skillName: "Node.js",
+      skillProgress: "45",
+    },
+    {
+      skillName: "Express.js",
+      skillProgress: "40",
+    },
+    {
+      skillName: "MongoDB",
+      skillProgress: "35",
+    },
+    {
       skillName: "MySQL",
-      skillProgress: "70",
+      skillProgress: "35",
     },
     {
       skillName: "Git & Github",
