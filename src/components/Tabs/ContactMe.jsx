@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import cimage from "../images/contactme.png";
@@ -7,6 +7,10 @@ import { init, send } from "emailjs-com";
 import "./tabs.css";
 
 const ContactMe = () => {
+  useEffect(() => {
+    init("N0gQC_ywT_nKab74B");
+  }, []);
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",

@@ -56,33 +56,33 @@ const TabsSection = () => {
           </TabPanel>
           <TabPanel value="3">
             <p className="breif">
-              Hi, I’m a Front-End Web Developer with a strong foundation in
-              HTML, CSS, and JavaScript, and hands-on experience with React. My
-              journey into web development has been a rewarding transition from
-              my original career in pharmacy, and it’s fueled by my passion for
-              creating functional, user-friendly, and visually appealing web
-              applications. I’ve worked on a variety of projects, including:
-              <ul>
-                <li>
-                  A biophilic design evaluation tool, which assesses building
-                  designs based on specific criteria.
-                </li>
-                <li>
-                  A web app for window configuration, where users can customize
-                  materials, sizes, and glass thickness.
-                </li>
-                <li>
-                  A small eCommerce site and landing pages built during my
-                  training.
-                </li>
-              </ul>
-              <br />I also enjoy working with styling libraries like Material-UI
-              and PatternFly, and I have some experience with C++ and Python.
-              While most of my projects have been self-initiated as part of my
-              learning journey, they reflect my dedication to improving my
-              skills and delivering meaningful solutions. I’m excited to
-              continue growing as a developer and contributing to projects that
-              make a real impact.
+              <h2>About Me</h2>
+              <p>
+                With over a decade of experience in the retail pharmacy
+                industry, my career has always been guided by curiosity and a
+                data‑driven mindset. What began as using Excel to organize store
+                operations evolved into a passion for exploring data and
+                unlocking insights that improve performance and decision‑making.
+              </p>
+              <p>
+                Over the past eight years, I’ve specialized in Excel and, during
+                2025, expanded my analytical toolkit by learning{" "}
+                <strong>Power BI</strong>, <strong>SQL</strong>, and{" "}
+                <strong>Python</strong>. Through hands‑on projects, I’ve built a
+                strong foundation in <strong>ETL processes</strong>,{" "}
+                <strong>data cleaning</strong>, and{" "}
+                <strong>exploratory data analysis (EDA)</strong> — transforming
+                complex datasets into clear, impactful dashboards and reports
+                that address key business questions.
+              </p>
+              <p>
+                To deepen my expertise, I completed more than{" "}
+                <strong>15 certificates</strong> on DataCamp, continuously
+                improving my skills in data visualization, analysis, and
+                automation. My journey reflects a commitment to growth,
+                precision, and using data as a powerful tool for meaningful
+                business insights.
+              </p>
             </p>
           </TabPanel>
         </div>

@@ -12,10 +12,12 @@
 .form-ctrl {
   width: 60%;
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding: 15px;
+  z-index: 2;
 }
 .form-ctrl .input {
   margin: 10px 5px;
@@ -42,6 +44,7 @@ textarea {
 }
 .img-container {
   width: 35%;
+  z-index: 1;
 }
 
 .img-container img {
