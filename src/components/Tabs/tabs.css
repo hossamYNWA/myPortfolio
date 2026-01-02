@@ -34,7 +34,7 @@ textarea {
   font-size: 17px;
   border-radius: 5px;
   margin-bottom: 20px;
-  resize: none;
+  /* resize: none; */
 }
 
 .input input {

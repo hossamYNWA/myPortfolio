@@ -1,37 +1,42 @@
-import p1 from "../images/projects/p1.png";
-import p2 from "../images/projects/p2.png";
+import mgstore from "../images/projects/data_megastore.png";
+import bikes from "../images/projects/data_bikes.jpeg";
+import chinok from "../images/projects/data_chinook.png";
+import excel1 from "../images/projects/data_exel1.png";
+import excel2 from "../images/projects/data_exel2.png";
+import red from "../images/projects/data_red.png";
+
 import Project from "./Project";
 const Projects = () => {
   const projects = [
     {
-      url: "https://biophilic.netlify.app/",
-      name: "Biophilic Design Evaluator",
-      img: "https://i.ibb.co/jy1js1g/11.png",
+      url: "https://github.com/hossamYNWA/data_megastore_dashboard",
+      name: "Megastore Data Analysis",
+      img: mgstore,
     },
     {
-      url: "https://hossamynwa.github.io/False-9/",
-      name: "False9 kits store",
-      img: p2,
+      url: "https://github.com/hossamYNWA/data_bikes_dashboard",
+      name: "Bikes Store Dashboard",
+      img: bikes,
     },
     {
-      url: "https://main--win-doors-demo.netlify.app/",
-      name: "Windows configurator",
-      img: "https://i.ibb.co/tQBpWyV/22.png",
+      url: "https://github.com/hossamYNWA/data_chinook_dashboard",
+      name: "Chinook Music Store Dashboard",
+      img: chinok,
     },
     {
-      url: "https://hossamynwa.github.io/ByteZone/",
-      name: "BytZone shop",
-      img: "https://i.ibb.co/JKRDQWJ/33.png",
+      url: "#projects",
+      name: "Sales Analysis Dashboard",
+      img: red,
     },
     {
-      url: "https://hossamynwa.github.io/flyDine/",
-      name: "Fly Dine",
-      img: "https://i.ibb.co/S3hN31W/44.png",
+      url: "#projects",
+      name: "Customers Analysis Dashboard (Excel)",
+      img: excel1,
     },
     {
-      url: "https://hossamynwa.github.io/rockers-project/#",
-      name: "Rocker's store landing page",
-      img: p1,
+      url: "#projects",
+      name: "Sales Dashboard (Excel)",
+      img: excel2,
     },
   ];
   const content = projects.map((project, i) => (

@@ -29,7 +29,7 @@ const ContactMe = () => {
     const newErrors = {};
     if (!formData.firstName) newErrors.firstName = "First name is required.";
     if (!formData.lastName) newErrors.lastName = "Last name is required.";
-    if (!formData.message) newErrors.lastName = "you didn't leave a message!";
+    if (!formData.message) newErrors.message = "you didn't leave a message!";
     if (!formData.email) {
       newErrors.email = "Email is required.";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -70,7 +70,10 @@ const ContactMe = () => {
   return (
     <div className="contact-form" id="contact">
       <div className="img-container">
-        <img src={cimage} alt="contact-me" />
+        <img
+          src="https://www.nicepng.com/png/full/138-1385735_data-analytics-and-visualization-analysis-clipart.png"
+          alt="contact-me"
+        />
       </div>
       <form className="form-ctrl" onSubmit={handleSubmit}>
         <div className="input">

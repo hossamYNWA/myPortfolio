@@ -6,12 +6,13 @@ const HeaderText = () => {
     <div className="htext">
       {/* <p className="welcome">Welcome to my portfolio</p> */}
       <h1>
-        Hi! I'm Hossam Mousa, <br />
+        Hi! I'm Hossam Badawy, <br />
         <ReactTyped
           strings={[
-            "Frontend Developer",
-            "React Developer",
-            "JavaScript Developer",
+            "Power BI Developer",
+            "Data Analyst",
+            "Business Analyst",
+            "Excel Analyst",
           ]}
           typeSpeed={100}
           backSpeed={30}
@@ -20,7 +21,7 @@ const HeaderText = () => {
           showCursor={true}
         />{" "}
       </h1>
-      <p className="exp">I've 2 years experience in web development</p>
+      {/* <p className="exp">I've 2 years experience in web development</p> */}
       <ContactBtn />
     </div>
   );

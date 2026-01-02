@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavIcons = () => {
   return (
     <div className="navIcons">
-      <Link to="https://www.linkedin.com/in/hossamynwa" target="_blank">
+      <Link to="https://www.linkedin.com/in/hossam-badawy" target="_blank">
         <FaLinkedinIn />
       </Link>
       <Link to="https://github.com/hossamynwa" target="_blank">

@@ -6,52 +6,36 @@ import "slick-carousel/slick/slick-theme.css";
 const Skills = () => {
   const skillset = [
     {
-      skillName: "HTML",
-      skillProgress: "80",
-    },
-    {
-      skillName: "CSS",
-      skillProgress: "80",
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "MS Excel",
       skillProgress: "85",
     },
     {
-      skillName: "React",
+      skillName: "MS Power BI",
+      skillProgress: "75",
+    },
+    {
+      skillName: "SQL",
+      skillProgress: "75",
+    },
+    {
+      skillName: "Python",
+      skillProgress: "75",
+    },
+    {
+      skillName: "Data Cleaning",
       skillProgress: "80",
     },
     {
-      skillName: "TypeScipt",
+      skillName: "EDA",
       skillProgress: "70",
     },
     {
-      skillName: "C++",
+      skillName: "Statistics  ",
       skillProgress: "50",
-    },
-    {
-      skillName: "Node.js",
-      skillProgress: "45",
-    },
-    {
-      skillName: "Express.js",
-      skillProgress: "40",
-    },
-    {
-      skillName: "MongoDB",
-      skillProgress: "35",
-    },
-    {
-      skillName: "MySQL",
-      skillProgress: "35",
     },
     {
       skillName: "Git & Github",
       skillProgress: "65",
-    },
-    {
-      skillName: "Netlify",
-      skillProgress: "50",
     },
   ];
   const settings = {
