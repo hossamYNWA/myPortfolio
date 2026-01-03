@@ -55,7 +55,7 @@ const TabsSection = () => {
             <ContactMe />
           </TabPanel>
           <TabPanel value="3">
-            <p className="breif">
+            <p className="breif" style={{ paddingBottom: "20px" }}>
               <h2>About Me</h2>
               <p>
                 With over a decade of experience in the retail pharmacy
