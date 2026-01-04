@@ -42,7 +42,7 @@ const TabsSection = () => {
             onChange={handleChange}
             aria-label="lab API tabs example"
           >
-            <Tab label="Projects" value="1" />
+            <Tab label="My Top Projects" value="1" />
             <Tab label="Contact Me" value="2" />
             <Tab label="Breif" value="3" />
           </TabList>
