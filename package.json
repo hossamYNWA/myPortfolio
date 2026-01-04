@@ -1,7 +1,6 @@
 {
   "name": "myportfolio",
   "version": "1.0.0",
-  "homepage": "https://hossamYNWA.github.io/myPortfolio/",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {
