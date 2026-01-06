@@ -44,7 +44,7 @@ const TabsSection = () => {
           >
             <Tab label="My Top Projects" value="1" />
             <Tab label="Contact Me" value="2" />
-            <Tab label="Breif" value="3" />
+            <Tab label="Brief" value="3" />
           </TabList>
         </Box>
         <div className="panels">

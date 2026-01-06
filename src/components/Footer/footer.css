@@ -8,7 +8,7 @@ footer {
 }
 
 footer .footer-content {
-  width: 80%;
+  width: 90%;
   margin: auto;
   height: 100%;
   display: flex;
@@ -29,7 +29,6 @@ footer .footer-content .logo {
   letter-spacing: 1px;
   text-align: left;
   margin-top: -6px;
-  padding-left: 35px;
 }
 
 footer ul {
@@ -102,5 +101,8 @@ footer form input {
 
   footer ul {
     display: none;
+  }
+  .copyrts {
+    font-size: 0.7rem;
   }
 }
