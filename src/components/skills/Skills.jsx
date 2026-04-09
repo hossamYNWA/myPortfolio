@@ -10,8 +10,8 @@ const Skills = () => {
       skillProgress: "85",
     },
     {
-      skillName: "MS Power BI",
-      skillProgress: "75",
+      skillName: "Power BI (PL-300)",
+      skillProgress: "80",
     },
     {
       skillName: "SQL",
@@ -19,10 +19,18 @@ const Skills = () => {
     },
     {
       skillName: "Python",
-      skillProgress: "75",
+      skillProgress: "80",
     },
     {
       skillName: "Data Cleaning",
+      skillProgress: "80",
+    },
+    {
+      skillName: "CRM",
+      skillProgress: "75",
+    },
+    {
+      skillName: "Category Management",
       skillProgress: "80",
     },
     {
@@ -31,7 +39,7 @@ const Skills = () => {
     },
     {
       skillName: "Statistics  ",
-      skillProgress: "50",
+      skillProgress: "65",
     },
     {
       skillName: "Git & Github",

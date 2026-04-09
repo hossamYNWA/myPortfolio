@@ -9,10 +9,12 @@ const HeaderText = () => {
         Hi! I'm Hossam Badawy, <br />
         <ReactTyped
           strings={[
-            "Power BI Developer",
-            "Data Analyst",
+            "Microsoft Certified Power BI Data Analyst",
+            "Business Excellence Analyst",
+            "SFE Specialist",
             "Business Analyst",
-            "Excel Analyst",
+            "Inventory Analyst",
+            "Category Management Analyst ",
           ]}
           typeSpeed={100}
           backSpeed={30}

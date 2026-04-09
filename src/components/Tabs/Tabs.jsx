@@ -59,7 +59,7 @@ const TabsSection = () => {
               <h2>About Me</h2>
               <p>
                 With over a decade of experience in the retail pharmacy
-                industry, my career has always been guided by curiosity and a
+                operations, my career has always been guided by curiosity and a
                 data‑driven mindset. What began as using Excel to organize store
                 operations evolved into a passion for exploring data and
                 unlocking insights that improve performance and decision‑making.
@@ -71,17 +71,18 @@ const TabsSection = () => {
                 <strong>Python</strong>. Through hands‑on projects, I’ve built a
                 strong foundation in <strong>ETL processes</strong>,{" "}
                 <strong>data cleaning</strong>, and{" "}
-                <strong>exploratory data analysis (EDA)</strong> — transforming
+                <strong>exploratory data analysis (EDA)</strong> transforming
                 complex datasets into clear, impactful dashboards and reports
                 that address key business questions.
               </p>
               <p>
-                To deepen my expertise, I completed more than{" "}
-                <strong>15 certificates</strong> on DataCamp, continuously
-                improving my skills in data visualization, analysis, and
-                automation. My journey reflects a commitment to growth,
-                precision, and using data as a powerful tool for meaningful
-                business insights.
+                To deepen my expertise, I've earned{" "}
+                <b>Microsoft PL-300 certificate </b> in power BI and completed
+                more than <strong>25 certificates</strong> on DataCamp,
+                continuously improving my skills in data visualization,
+                analysis,CRM and Category management. My journey reflects a
+                commitment to growth, precision, and using data as a powerful
+                tool for meaningful business insights.
               </p>
             </p>
           </TabPanel>

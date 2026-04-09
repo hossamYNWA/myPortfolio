@@ -4,6 +4,7 @@ import chinok from "../images/projects/data_chinook.png";
 import excel1 from "../images/projects/data_exel1.png";
 import excel2 from "../images/projects/data_exel2.png";
 import red from "../images/projects/data_red.png";
+import sc from "../images/projects/sc.jpg";
 
 import Project from "./Project";
 const Projects = () => {
@@ -34,9 +35,9 @@ const Projects = () => {
       img: excel1,
     },
     {
-      url: "#projects",
-      name: "Sales Dashboard (Excel)",
-      img: excel2,
+      url: "https://github.com/hossamYNWA/supply_chain",
+      name: "Supply Chain Analysis (Excel)",
+      img: sc,
     },
   ];
   const content = projects.map((project, i) => (
